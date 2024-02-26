@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>723722f36ae38bb6f86d8f9d878ccc582c9863d7</guid>
+	<type>package</type>
+	<hash>d5022e31</hash>
+	<runtimes>
+		<runtime id="723722f36ae38bb6f86d8f9d878ccc582c9863d7" name="postFilterSelection_upackage.upackage" link="0"/>
+	</runtimes>
+</asset>

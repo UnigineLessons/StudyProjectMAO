@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>e6885661b33efc4c12940b3b4330075e80fcc725</guid>
+	<type>texture</type>
+	<hash>f872b71a</hash>
+	<runtimes>
+		<runtime id="e6885661b33efc4c12940b3b4330075e80fcc725" name="WorkTable_low_WorkTable_Metal_M_BaseColor.png" link="0" type="6"/>
+		<runtime id="3922646ba5a3aeceef82e7d53240973049a3c0cf" name="WorkTable_low_WorkTable_Metal_M_BaseColor.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">albedo (rgb)</parameter>
+	</parameters>
+</asset>

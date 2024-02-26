@@ -1,0 +1,101 @@
+BaseMaterial <texture_prefix=tex var_prefix=var>
+{
+	State quarter = true
+
+	Texture2D color     <source=procedural internal=true>
+	Texture2D selection <source=procedural internal=true>
+	Texture2D <source=auxiliary>
+	
+	Slider radius = 1.0f
+	
+	Shader render_blur_2d_frag=
+	#{
+		#include <core/materials/shaders/render/common.h>
+		
+		STRUCT_FRAG_BEGIN
+			INIT_COLOR(float4)
+		STRUCT_FRAG_END
+		
+		MAIN_FRAG_BEGIN(FRAGMENT_IN)
+		#ifdef HORIZONTAL
+			float2 uv_offset = float2(s_viewport.z, 0.0f);
+		#else
+			float2 uv_offset = float2(0.0f, s_viewport.w);
+		#endif
+		
+			OUT_COLOR.a = 1.0f;
+			OUT_COLOR.rgb = TEXTURE_BIAS_ZERO(tex_color, IN_UV).xyz * 0.142300f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV + uv_offset * 1 * var_radius).xyz * 0.134610f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV + uv_offset * 2 * var_radius).xyz * 0.113945f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV + uv_offset * 3 * var_radius).xyz * 0.086310f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV + uv_offset * 4 * var_radius).xyz * 0.058501f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV + uv_offset * 5 * var_radius).xyz * 0.035483f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV - uv_offset * 1 * var_radius).xyz * 0.134610f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV - uv_offset * 2 * var_radius).xyz * 0.113945f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV - uv_offset * 3 * var_radius).xyz * 0.086310f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV - uv_offset * 4 * var_radius).xyz * 0.058501f +
+							TEXTURE_BIAS_ZERO(tex_color, IN_UV - uv_offset * 5 * var_radius).xyz * 0.035483f;
+		MAIN_FRAG_END
+	#}
+	
+	Pass render_hblur <defines="HORIZONTAL">
+	{
+		Fragment = render_blur_2d_frag
+	}
+	
+	Pass render_vblur
+	{
+		Fragment = render_blur_2d_frag
+	}
+	
+	Pass render_selection
+	{
+		Fragment=
+		#{
+			#include <core/materials/shaders/render/common.h>
+			
+			STRUCT_FRAG_BEGIN
+				INIT_COLOR(float4)
+			STRUCT_FRAG_END
+			
+			MAIN_FRAG_BEGIN(FRAGMENT_IN)
+				float4 aux = TEXTURE_BIAS_ZERO(tex_auxiliary, IN_UV.xy);
+				float4 color = TEXTURE_BIAS_ZERO(tex_color, IN_UV.xy);
+				float4 selection = TEXTURE_BIAS_ZERO(tex_selection, IN_UV.xy);
+				
+				OUT_COLOR = color + saturate(selection - aux) * 2.0f;
+			MAIN_FRAG_END
+		#}
+	}
+	
+	Expression RENDER_CALLBACK_END_POST_MATERIALS=
+	#{
+		int screen_width = engine.render_state.getWidth();
+		int screen_height = engine.render_state.getHeight();
+		if (getState("quarter"))
+		{
+			screen_width /= 4;
+			screen_height /= 4;
+		}
+
+		Texture source = engine.render.getTemporaryTexture(engine.render_state.getScreenColorTexture());
+		Texture selection = engine.render.getTemporaryTexture2D(screen_width, screen_height, TEXTURE_FORMAT_RGBA8, TEXTURE_FILTER_LINEAR | TEXTURE_USAGE_RENDER);
+		Texture temp = engine.render.getTemporaryTexture2D(screen_width, screen_height, TEXTURE_FORMAT_RGBA8, TEXTURE_FILTER_LINEAR | TEXTURE_USAGE_RENDER);
+		
+		setTexture("color", engine.renderer.getTextureAuxiliary());
+		renderPassToTexture("render_hblur", temp);
+		
+		setTexture("color", temp);
+		renderPassToTexture("render_vblur", selection);
+		
+		source.copy(engine.render_state.getScreenColorTexture());
+		setTexture("color", source);
+		setTexture("selection", selection);
+		renderPassToTexture("render_selection", engine.render_state.getScreenColorTexture());
+		setTexture("selection", NULL);
+		
+		engine.render.releaseTemporaryTexture(selection);
+		engine.render.releaseTemporaryTexture(source);
+		engine.render.releaseTemporaryTexture(temp);
+	#}
+}

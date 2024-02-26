@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>5c2a6819fa8132a4612fddb3e4ad877637bdd85d</guid>
+	<type>texture</type>
+	<hash>294b4d1</hash>
+	<runtimes>
+		<runtime id="5c2a6819fa8132a4612fddb3e4ad877637bdd85d" name="Door_roughness.jpg" link="0" type="6"/>
+		<runtime id="cc4f5a740fd4c343e1948fc6ec99246dd35e3ae8" name="Door_roughness.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

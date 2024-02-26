@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>b5b07bb2dc102769b235c9b46a1be9838caf0106</guid>
+	<type>texture</type>
+	<hash>702e460b</hash>
+	<runtimes>
+		<runtime id="b5b07bb2dc102769b235c9b46a1be9838caf0106" name="b5b07bb2dc102769b235c9b46a1be9838caf0106.texture" link="0" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">RG11B10F</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">cube</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

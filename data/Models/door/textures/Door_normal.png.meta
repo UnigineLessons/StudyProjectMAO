@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>6dcff3bb785dd5de9f1743a530ae20c049131d1f</guid>
+	<type>texture</type>
+	<hash>60a5ac62</hash>
+	<runtimes>
+		<runtime id="6dcff3bb785dd5de9f1743a530ae20c049131d1f" name="Door_normal.png" link="0" type="6"/>
+		<runtime id="aab42d8a24343f6114cfd14c88ccdc3b5058a45e" name="Door_normal.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>a5643a374116d22a286e5b813217feec3c44ed5b</guid>
+	<type>texture</type>
+	<hash>8d7ed3ed</hash>
+	<runtimes>
+		<runtime id="a5643a374116d22a286e5b813217feec3c44ed5b" name="Couch_Cloth_Color.png" link="0" type="6"/>
+		<runtime id="0ea8c4556587c9b030e0514f08ef8e620ae63a59" name="Couch_Cloth_Color.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">albedo (rgb)</parameter>
+	</parameters>
+</asset>

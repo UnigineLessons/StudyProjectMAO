@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>a321c6c4637c235332ead096c01d4efd6219c438</guid>
+	<type>texture</type>
+	<hash>56e17064</hash>
+	<runtimes>
+		<runtime id="a321c6c4637c235332ead096c01d4efd6219c438" name="WorkTable_low_WorkTable_Metal_M_Metallic.png" link="0" type="6"/>
+		<runtime id="5a387e1ca44882cb3e0d79aea397753556000510" name="WorkTable_low_WorkTable_Metal_M_Metallic.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="NodeDummy" id="289186750" name="Main-Animation-Razborka-All-In-One">
+		<transform>1 2.646978e-22 -3.8213714e-15 0.0 9.2644229e-23 1 8.7422777e-08 0.0 3.8213714e-15 -8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="1122844971" name="Арматура">
+			<transform>100 8.7422795e-06 -8.7422777e-06 0.0 8.7422795e-06 -1.6292068e-05 100 0.0 8.7422777e-06 -100 -1.6292068e-05 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshSkinned" id="127862505" name="Крышка цилиндров модиф.">
+			<mesh_name>guid://27f280fc7bbfe82ba7e1df8e96d7e195f0d3c5f0</mesh_name>
+			<fps_visible_camera>-1</fps_visible_camera>
+			<fps_visible_shadow>30</fps_visible_shadow>
+			<fps_invisible>0</fps_invisible>
+			<anim_name>guid://2c7da08f3ac014a2c43a8b9928f8002424994d33</anim_name>
+			<speed>24</speed>
+			<surface name="229,234,237" material="794b2f03f1468886ec7f462dcf4071a88965a8e7"/>
+			<surface name="255,237,143" material="09fa806316f9ea66de7a7e8db2d88e8885806047"/>
+			<surface name="63,109,255" material="bc6d3c5f394fde32aae727e9e9d3d034d6393e03"/>
+			<surface name="255,54,47" material="0f3d7f13ec0af956f1bbe0bd50f9aaf8857371f7"/>
+			<surface name="202,209,238" material="85fc800725f33dba1b8b31d1f5c2c0fc28d3282b"/>
+			<surface name="255,236,127" material="4ef84cafaaaf92422411acb9fa376ec4d885ab53"/>
+			<surface name="0,0,255" material="08ca933bc624ef5e63dc8f252a47f6401a73f49f"/>
+			<surface name="255,242,232" material="f08b9ddb7ece397e751e12c5ffad65603501593f"/>
+			<surface name="165,158,150" material="e6c3b92b05597c8e5378da95f9366af0043e018f"/>
+			<surface name="192,192,192" material="88c565b3c3756f76d654a05d7fb526189e277297"/>
+			<surface name="198,193,188" material="783832f7b5b6f3ea2dc292415def46ac3e8a121b"/>
+			<surface name="211,214,211" material="ddb1594fe0bcf662ffc48259400a07e4415a31f3"/>
+			<surface name="75,75,75" material="73b000ff55ab9a5207a47589a0fe81547216fca3"/>
+			<surface name="158,104,51" material="429e42572765fbca75a938a12a4ff98c9e98677b"/>
+			<surface name="255,255,255" material="a6241bcbc62a3eae408b76359fca1210a0743e2f"/>
+			<surface name="31,0,4" material="d6513a3f2beb02925aa640c968515394195129e3"/>
+			<surface name="255,83,55" material="25bfe2f3c5554bb6a2b44f9d1da48c58024d23d7"/>
+			<surface name="23,95,255" material="b9ca29e74ff41e1a805cd6b1b5f9605c3f79800b"/>
+			<surface name="255,246,103" material="a826631bbf81bdbe2f2d4a05e7b6b3a056e7d27f"/>
+			<surface name="255,103,169" material="a99b228f090baea2676d5d993438aa24149def33"/>
+			<surface name="84,39,255" material="8af33c431756b4c69f33056d2dd4a7e8b0c9ea27"/>
+			<surface name="59,0,95" material="b031c4372c82d42a57b67581dd1d50ec0c36175b"/>
+			<surface name="128,128,128" material="7c7ce68bd6350a6e44064ef5ea2393d0bc7254ef"/>
+			<surface name="51,51,51" material="8578dc53af7635967a6f6ffdca6b713861780337"/>
+			<surface name="255,240,151" material="4532387b467fd39e69aba6653e4fa48032854ddf"/>
+			<surface name="0,0,0" material="bbea6147aa072dfa3887e5119f435b3c12107d6b"/>
+			<surface name="211,170,33" material="57c6b39766d33c0a7c0efbe11a8663ccdff14cbb"/>
+			<surface name="250,255,215" material="8859559f1d9ca67268d6d329c67b027490fc4b43"/>
+			<surface name="Колесо.003" material="be6785492aecce14e4856263981364667d61b08d"/>
+			<surface name="Материал.002" material="bd7faedfcf5eaeb28d3abe69688974b4b57d9883"/>
+			<surface name="175,175,175" material="2ef328a779498dda8dfa03716589261cc2510acb"/>
+			<surface name="Материал" material="3e060e6b34ef50ce2ae621d569668930d6fd0acf"/>
+			<surface name="229,229,229" material="637b6da32c4d76a6efda1dcd3b6724c8f0db8187"/>
+			<surface name="Материал.001" material="f880bc1d84c10ed8593ec457f35895ca84570aa1"/>
+			<surface name="Материал.003" material="b89ceb3119e56adc6525088bf64ac46eb73cc0f5"/>
+			<transform>1 6.9377098e-23 3.8213714e-15 0.0 2.4143067e-22 1 -8.7422777e-08 0.0 -3.8213714e-15 8.7422777e-08 1 0.0 0 0 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

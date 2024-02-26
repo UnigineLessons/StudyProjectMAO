@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>89bf391bff889bbed9fa9005340741a02d93087f</guid>
+	<type>texture</type>
+	<hash>9548a78c</hash>
+	<runtimes>
+		<runtime id="89bf391bff889bbed9fa9005340741a02d93087f" name="Wood027_4K_Color.png" link="0" type="6"/>
+		<runtime id="61d2f04db768d54825c4780727ead5bab3ade9d1" name="Wood027_4K_Color.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">albedo (rgb)</parameter>
+	</parameters>
+</asset>

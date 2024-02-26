@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>fd511fe789d29c1a64dd3cb16f228e5c8ce4d60b</guid>
+	<type>texture</type>
+	<hash>bc455e85</hash>
+	<runtimes>
+		<runtime id="fd511fe789d29c1a64dd3cb16f228e5c8ce4d60b" name="Bricks061_4K_NormalDX.jpg" link="0" type="6"/>
+		<runtime id="e91732793e89b984673bf7137fc71156bbd918bd" name="Bricks061_4K_NormalDX.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

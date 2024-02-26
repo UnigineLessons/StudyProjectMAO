@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>cdb40f16e5bc7b7d0f6a06b8eb769ab78ef8b8aa</guid>
+	<type>texture</type>
+	<hash>c9f712fc</hash>
+	<runtimes>
+		<runtime id="cdb40f16e5bc7b7d0f6a06b8eb769ab78ef8b8aa" name="Door_metallic.jpg" link="0" type="6"/>
+		<runtime id="b87e3e5bfe935ffe41f807451ea9cfe0c0c1c1bf" name="Door_metallic.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

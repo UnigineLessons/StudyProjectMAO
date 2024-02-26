@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>509971cb94639caec2e93c35f1712010b383f42f</guid>
+	<type>texture</type>
+	<hash>09a92d35</hash>
+	<runtimes>
+		<runtime id="509971cb94639caec2e93c35f1712010b383f42f" name="Tiles075_4K_Color.jpg" link="0" type="6"/>
+		<runtime id="6e47227d8bfe81b86b02d9b71131ebaa0377a701" name="Tiles075_4K_Color.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">albedo (rgb)</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>62a4e47140dc931cc7fb93cb0feb56ae46e9ae35</guid>
+	<type>material</type>
+	<hash>b342d06a</hash>
+	<runtimes>
+		<runtime id="62a4e47140dc931cc7fb93cb0feb56ae46e9ae35" name="basic plaster" link="0" type="5"/>
+	</runtimes>
+</asset>

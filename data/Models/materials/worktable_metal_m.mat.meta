@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>9bcec3c5a62c6260f742323f12f79a92f2d9f8c9</guid>
+	<type>material</type>
+	<hash>d0e25e09</hash>
+	<runtimes>
+		<runtime id="9bcec3c5a62c6260f742323f12f79a92f2d9f8c9" name="worktable_metal_m" link="0" type="5"/>
+	</runtimes>
+</asset>

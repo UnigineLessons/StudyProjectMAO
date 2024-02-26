@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>c687d96fadce3802b26a97798f03da845f95a413</guid>
+	<type>package</type>
+	<hash>009499a9</hash>
+	<runtimes>
+		<runtime id="c687d96fadce3802b26a97798f03da845f95a413" name="matAux_upackage.upackage" link="0"/>
+	</runtimes>
+</asset>

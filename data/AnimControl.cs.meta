@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>f4890b385a54d5377210b12afaf8ae811b3035ec</guid>
+	<type>component</type>
+	<hash>0f92e29d</hash>
+	<runtimes>
+		<runtime id="f4890b385a54d5377210b12afaf8ae811b3035ec" name="AnimControl.cs" link="0"/>
+		<runtime id="95929a2e4ccd1bb59090799003447faf29e02942" name="AnimControl.prop" link="1" type="4"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>b4640359928994e409025af3838563b6ccb5879d</guid>
+	<type>material</type>
+	<hash>79f1cc25</hash>
+	<runtimes>
+		<runtime id="b4640359928994e409025af3838563b6ccb5879d" name="door" link="0" type="5"/>
+	</runtimes>
+</asset>

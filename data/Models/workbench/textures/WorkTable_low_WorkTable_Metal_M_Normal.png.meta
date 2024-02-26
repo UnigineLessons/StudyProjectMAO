@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>f981d2432a5852c6a93c0b6ddeadf5e8dee6e027</guid>
+	<type>texture</type>
+	<hash>37e97808</hash>
+	<runtimes>
+		<runtime id="f981d2432a5852c6a93c0b6ddeadf5e8dee6e027" name="WorkTable_low_WorkTable_Metal_M_Normal.png" link="0" type="6"/>
+		<runtime id="0cb878872701dc3a76f03e51155f637c0b0668ab" name="WorkTable_low_WorkTable_Metal_M_Normal.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

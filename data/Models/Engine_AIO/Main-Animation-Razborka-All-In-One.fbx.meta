@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>aaae811b0a5f43be55d11805401c29a0c712d07f</guid>
+	<type>fbx</type>
+	<hash>f1033</hash>
+	<runtimes>
+		<runtime id="aaae811b0a5f43be55d11805401c29a0c712d07f" name="Main-Animation-Razborka-All-In-One.fbx" link="0"/>
+		<runtime id="207a784d6e1abd48f73d400772bcfdba2449f1d1" name="Main-Animation-Razborka-All-In-One.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">2b2bb26a</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="27f280fc7bbfe82ba7e1df8e96d7e195f0d3c5f0" name="engine2.022.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">0c1128ea</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="2c7da08f3ac014a2c43a8b9928f8002424994d33" name="Main-Animation-Razborka-All-In-One.anim" link="2" type="2">
+			<parameters>
+				<parameter type="string" name="id">04305a32</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">0</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="string" name="base_material_mode">inherit_mesh_base</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="import_animations">1</parameter>
+		<parameter type="bool" name="import_bones_without_skin">1</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="bool" name="joints_reorientation">1</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="float" name="fps">24</parameter>
+		<parameter type="bool" name="asset_name_as_prefix">0</parameter>
+		<parameter type="string" name="prefix_materials"/>
+		<parameter type="int" name="import_materials_mode">1</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="string" name="lods_mode">off</parameter>
+		<parameter type="int" name="num_lods">3</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+09,3,0,0,100,0,0,60;_lod_1,3,9,0,0,60,0,1,60;_lod_2,9,1e+09,0,0,30,0,1,60</parameter>
+		<parameter type="string" name="animations"/>
+		<parameter type="int" name="uv_ch">1</parameter>
+		<parameter type="bool" name="unwrap_uv_ch_0">0</parameter>
+		<parameter type="bool" name="unwrap_uv_ch_1">0</parameter>
+		<parameter type="int" name="resolution">3</parameter>
+		<parameter type="string" name="lightmaps">{&quot;guid://27f280fc7bbfe82ba7e1df8e96d7e195f0d3c5f0&quot;:{&quot;229,234,237&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,237,143&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;63,109,255&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,54,47&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;202,209,238&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,236,127&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;0,0,255&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,242,232&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;165,158,150&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;192,192,192&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;198,193,188&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;211,214,211&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;75,75,75&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;158,104,51&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,255,255&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;31,0,4&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,83,55&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;23,95,255&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,246,103&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,103,169&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;84,39,255&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;59,0,95&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;128,128,128&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;51,51,51&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;255,240,151&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;0,0,0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;211,170,33&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;250,255,215&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;Колесо.003&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;Материал.002&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;175,175,175&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;Материал&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;229,229,229&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;Материал.001&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3},&quot;Материал.003&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}}}</parameter>
+		<parameter type="int" name="smooth_animation_size">0</parameter>
+		<parameter type="string" name="material_guids">63109255,bc6d3c5f394fde32aae727e9e9d3d034d6393e03,2555447,0f3d7f13ec0af956f1bbe0bd50f9aaf8857371f7,202209238,85fc800725f33dba1b8b31d1f5c2c0fc28d3282b,00255,08ca933bc624ef5e63dc8f252a47f6401a73f49f,255236127,4ef84cafaaaf92422411acb9fa376ec4d885ab53,255237143,09fa806316f9ea66de7a7e8db2d88e8885806047,15810451,429e42572765fbca75a938a12a4ff98c9e98677b,128128128,7c7ce68bd6350a6e44064ef5ea2393d0bc7254ef,757575,73b000ff55ab9a5207a47589a0fe81547216fca3,192192192,88c565b3c3756f76d654a05d7fb526189e277297,175175175,2ef328a779498dda8dfa03716589261cc2510acb,255242232,f08b9ddb7ece397e751e12c5ffad65603501593f,211214211,ddb1594fe0bcf662ffc48259400a07e4415a31f3,229234237,794b2f03f1468886ec7f462dcf4071a88965a8e7,198193188,783832f7b5b6f3ea2dc292415def46ac3e8a121b,165158150,e6c3b92b05597c8e5378da95f9366af0043e018f,250255215,8859559f1d9ca67268d6d329c67b027490fc4b43,515151,8578dc53af7635967a6f6ffdca6b713861780337,000,bbea6147aa072dfa3887e5119f435b3c12107d6b,255240151,4532387b467fd39e69aba6653e4fa48032854ddf,126114146,0744f5ef1943aa82218067f940b27104a7ea4893,229229229,637b6da32c4d76a6efda1dcd3b6724c8f0db8187,21117033,57c6b39766d33c0a7c0efbe11a8663ccdff14cbb,255255255,a6241bcbc62a3eae408b76359fca1210a0743e2f,3104,d6513a3f2beb02925aa640c968515394195129e3,2558355,25bfe2f3c5554bb6a2b44f9d1da48c58024d23d7,2395255,b9ca29e74ff41e1a805cd6b1b5f9605c3f79800b,255246103,a826631bbf81bdbe2f2d4a05e7b6b3a056e7d27f,255103169,a99b228f090baea2676d5d993438aa24149def33,8439255,8af33c431756b4c69f33056d2dd4a7e8b0c9ea27,59095,b031c4372c82d42a57b67581dd1d50ec0c36175b,Колесо.003,be6785492aecce14e4856263981364667d61b08d,Материал,3e060e6b34ef50ce2ae621d569668930d6fd0acf,Материал.001,f880bc1d84c10ed8593ec457f35895ca84570aa1,Материал.002,bd7faedfcf5eaeb28d3abe69688974b4b57d9883,Материал.003,b89ceb3119e56adc6525088bf64ac46eb73cc0f5,63109255,bc6d3c5f394fde32aae727e9e9d3d034d6393e03,2555447,0f3d7f13ec0af956f1bbe0bd50f9aaf8857371f7,202209238,85fc800725f33dba1b8b31d1f5c2c0fc28d3282b,00255,08ca933bc624ef5e63dc8f252a47f6401a73f49f,255236127,4ef84cafaaaf92422411acb9fa376ec4d885ab53,255237143,09fa806316f9ea66de7a7e8db2d88e8885806047,15810451,429e42572765fbca75a938a12a4ff98c9e98677b,128128128,7c7ce68bd6350a6e44064ef5ea2393d0bc7254ef,757575,73b000ff55ab9a5207a47589a0fe81547216fca3,192192192,88c565b3c3756f76d654a05d7fb526189e277297,175175175,2ef328a779498dda8dfa03716589261cc2510acb,255242232,f08b9ddb7ece397e751e12c5ffad65603501593f,211214211,ddb1594fe0bcf662ffc48259400a07e4415a31f3,229234237,794b2f03f1468886ec7f462dcf4071a88965a8e7,198193188,783832f7b5b6f3ea2dc292415def46ac3e8a121b,165158150,e6c3b92b05597c8e5378da95f9366af0043e018f,250255215,8859559f1d9ca67268d6d329c67b027490fc4b43,515151,8578dc53af7635967a6f6ffdca6b713861780337,000,bbea6147aa072dfa3887e5119f435b3c12107d6b,255240151,4532387b467fd39e69aba6653e4fa48032854ddf,126114146,0744f5ef1943aa82218067f940b27104a7ea4893,229229229,637b6da32c4d76a6efda1dcd3b6724c8f0db8187,21117033,57c6b39766d33c0a7c0efbe11a8663ccdff14cbb,255255255,a6241bcbc62a3eae408b76359fca1210a0743e2f,3104,d6513a3f2beb02925aa640c968515394195129e3,2558355,25bfe2f3c5554bb6a2b44f9d1da48c58024d23d7,2395255,b9ca29e74ff41e1a805cd6b1b5f9605c3f79800b,255246103,a826631bbf81bdbe2f2d4a05e7b6b3a056e7d27f,255103169,a99b228f090baea2676d5d993438aa24149def33,8439255,8af33c431756b4c69f33056d2dd4a7e8b0c9ea27,59095,b031c4372c82d42a57b67581dd1d50ec0c36175b,Колесо.003,be6785492aecce14e4856263981364667d61b08d,Материал,3e060e6b34ef50ce2ae621d569668930d6fd0acf,Материал.001,f880bc1d84c10ed8593ec457f35895ca84570aa1,Материал.002,bd7faedfcf5eaeb28d3abe69688974b4b57d9883,Материал.003,b89ceb3119e56adc6525088bf64ac46eb73cc0f5</parameter>
+	</parameters>
+</asset>

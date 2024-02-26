@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>54448f93da79cfd62953c53df93b45784ad74a77</guid>
+	<type>texture</type>
+	<hash>fcbb13f4</hash>
+	<runtimes>
+		<runtime id="54448f93da79cfd62953c53df93b45784ad74a77" name="Door_albedo.jpg" link="0" type="6"/>
+		<runtime id="0b9649a8e5d1a0e724bf291a480e65b18ff7a35c" name="Door_albedo.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">albedo (rgb)</parameter>
+	</parameters>
+</asset>

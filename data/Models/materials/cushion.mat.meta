@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>fd18d9c741e64c7acf8371913c847dbc609e3deb</guid>
+	<type>material</type>
+	<hash>9fb2ba8a</hash>
+	<runtimes>
+		<runtime id="fd18d9c741e64c7acf8371913c847dbc609e3deb" name="cushion" link="0" type="5"/>
+	</runtimes>
+</asset>

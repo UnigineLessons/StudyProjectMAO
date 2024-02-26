@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>23ebd88f2da8eca2f81d8399724e9824368f0533</guid>
+	<type>texture</type>
+	<hash>0aa5e282</hash>
+	<runtimes>
+		<runtime id="23ebd88f2da8eca2f81d8399724e9824368f0533" name="Wood027_4K_NormalDX.png" link="0" type="6"/>
+		<runtime id="6f46df5aefd026f1270df39c91707a4b61320b2e" name="Wood027_4K_NormalDX.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>

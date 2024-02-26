@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>a192b15d35a20318d03cab97bda0d40aa70fb3e1</guid>
+	<type>material</type>
+	<hash>2535c7bf</hash>
+	<runtimes>
+		<runtime id="a192b15d35a20318d03cab97bda0d40aa70fb3e1" name="briks" link="0" type="5"/>
+	</runtimes>
+</asset>

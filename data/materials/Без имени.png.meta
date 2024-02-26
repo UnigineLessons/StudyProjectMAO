@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>981e7e356f717a100764862fc4977dc2dc2da239</guid>
+	<type>texture</type>
+	<hash>a8e46734</hash>
+	<runtimes>
+		<runtime id="981e7e356f717a100764862fc4977dc2dc2da239" name="Без имени.png" link="0" type="6"/>
+		<runtime id="70f3e644a334bcd3f9f39c163c24a47df40a1bb8" name="Без имени.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT5</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>390490550b7925b0c4c9fd4f72554a6249f8c659</guid>
+	<type>fbx</type>
+	<hash>8f7f0014</hash>
+	<runtimes>
+		<runtime id="390490550b7925b0c4c9fd4f72554a6249f8c659" name="controller_final_version.fbx" link="0"/>
+		<runtime id="6593e42e9a59ddb5880253903ae891af1e611342" name="controller_final_version.node" link="1" type="3">
+			<parameters>
+				<parameter type="string" name="id">9fd65125</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="567b39b95cc197c4e6dfc053e487c996a14bf3fd" name="cube.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">85f58d93</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="84362538287b273730aedb2ac7bcd081f8b1efec" name="mesh.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">6fb5007</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="311c2a5b16a05bfe4308d345c9cc2be01e286dbf" name="sphere.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">97e8c34d</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="97dda012e2394049d0154d14d12dd563f5733b66" name="sphere.001.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">97e8c34d</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="69e99b8de20b0788d8468547550d01faee4ba911" name="sphere.002.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">97e8c34d</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="fe4c4f3c4abce16b4d4a07ce6b6b6cd51f0d5830" name="sphere.003.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">97e8c34d</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="bdef8dcf2d50a0e25fb32ad9aacb9664b6756e73" name="cube.008.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">01632caf</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="13a261366caf671db641bdd83981a75728301cca" name="cube.009.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">01632caf</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="4212e5a18b9bc28c62879c7b8dade79e56faaa65" name="cube.010.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">01632caf</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="2aead880211ef1dfde2715b23571f969b7d973b4" name="cube.011.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">01632caf</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="83278b8346d23b065c3656ad089f48282f2d8d67" name="mesh.001.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">3b0cb4ec</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="97252b9afabb8631ca3549dcf30d5b8bd728fb6e" name="mesh.002.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">3b0cb4ec</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="0b6f8bf5edc9acd08ad799ef390dfe82903eabf9" name="mesh.003.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">3b0cb4ec</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="5373e50403f52c9379ffc8d6f5576a3de628a678" name="mesh.004.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">3b0cb4ec</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="608b377706392e6ade2e8ac19cede52c5f1f1e9b" name="text.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">5ee10065</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="7458433ee0c31185154ed5208a7a85ff2bf25b52" name="text.001.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">b3c60ad1</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="f3224289bb0fea54f5cf51a34b680aa68f2ba1cd" name="text.002.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">6001f8aa</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="b122d8c8491ba58720f9253ad094f351efda947c" name="text.003.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">5e1e592b</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="01cde5abcb18bf0e112e3b154c5f51700ba8b60f" name="text.004.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">f88e5c36</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="d4012c22c765bd195d6283a415e6fab3dc880076" name="mesh.005.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">de23b5e3</parameter>
+			</parameters>
+		</runtime>
+		<runtime id="ab0bfd5d7112df18489fd797aa32100a6457bfe1" name="mesh.006.mesh" link="2" type="1">
+			<parameters>
+				<parameter type="string" name="id">3bf41dbf</parameter>
+			</parameters>
+		</runtime>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="merge_static_meshes">0</parameter>
+		<parameter type="bool" name="merge_surfaces_by_materials">0</parameter>
+		<parameter type="bool" name="use_instances">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="import_meshes">1</parameter>
+		<parameter type="bool" name="import_materials">1</parameter>
+		<parameter type="string" name="base_material_mode">unique_material_graph</parameter>
+		<parameter type="bool" name="merge_similar_materials">0</parameter>
+		<parameter type="bool" name="import_textures">1</parameter>
+		<parameter type="bool" name="import_animations">0</parameter>
+		<parameter type="bool" name="import_bones_without_skin">1</parameter>
+		<parameter type="bool" name="create_transform_bones_for_joints">0</parameter>
+		<parameter type="bool" name="joints_reorientation">1</parameter>
+		<parameter type="bool" name="import_lights">1</parameter>
+		<parameter type="bool" name="import_cameras">1</parameter>
+		<parameter type="bool" name="import_tangent_space">0</parameter>
+		<parameter type="bool" name="import_morph_targets">0</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="float" name="fps">24</parameter>
+		<parameter type="bool" name="asset_name_as_prefix">0</parameter>
+		<parameter type="string" name="prefix_materials"/>
+		<parameter type="int" name="import_materials_mode">0</parameter>
+		<parameter type="int" name="workflow">0</parameter>
+		<parameter type="int" name="up_axis">0</parameter>
+		<parameter type="int" name="front_axis">0</parameter>
+		<parameter type="bool" name="need_split">0</parameter>
+		<parameter type="bool" name="need_repivot">0</parameter>
+		<parameter type="bool" name="need_triagulate">1</parameter>
+		<parameter type="bool" name="skip_empty_nodes">0</parameter>
+		<parameter type="float" name="bound_size">10000</parameter>
+		<parameter type="float" name="linear_deflection">0.200000003</parameter>
+		<parameter type="float" name="angular_deflection">0.699999988</parameter>
+		<parameter type="string" name="lods_mode">off</parameter>
+		<parameter type="int" name="num_lods">3</parameter>
+		<parameter type="string" name="lods">_lod_0,-1e+09,3,0,0,100,0,0,60;_lod_1,3,9,0,0,60,0,1,60;_lod_2,9,1e+09,0,0,30,0,1,60</parameter>
+		<parameter type="string" name="animations"/>
+		<parameter type="int" name="uv_ch">1</parameter>
+		<parameter type="bool" name="unwrap_uv_ch_0">0</parameter>
+		<parameter type="bool" name="unwrap_uv_ch_1">0</parameter>
+		<parameter type="int" name="resolution">3</parameter>
+		<parameter type="string" name="lightmaps">{&quot;guid://bdef8dcf2d50a0e25fb32ad9aacb9664b6756e73&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://13a261366caf671db641bdd83981a75728301cca&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://4212e5a18b9bc28c62879c7b8dade79e56faaa65&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://2aead880211ef1dfde2715b23571f969b7d973b4&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://567b39b95cc197c4e6dfc053e487c996a14bf3fd&quot;:{&quot;Material&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://83278b8346d23b065c3656ad089f48282f2d8d67&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://97252b9afabb8631ca3549dcf30d5b8bd728fb6e&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://0b6f8bf5edc9acd08ad799ef390dfe82903eabf9&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://5373e50403f52c9379ffc8d6f5576a3de628a678&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://d4012c22c765bd195d6283a415e6fab3dc880076&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://ab0bfd5d7112df18489fd797aa32100a6457bfe1&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://84362538287b273730aedb2ac7bcd081f8b1efec&quot;:{&quot;Material.001&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://97dda012e2394049d0154d14d12dd563f5733b66&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://69e99b8de20b0788d8468547550d01faee4ba911&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://fe4c4f3c4abce16b4d4a07ce6b6b6cd51f0d5830&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://311c2a5b16a05bfe4308d345c9cc2be01e286dbf&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://7458433ee0c31185154ed5208a7a85ff2bf25b52&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://f3224289bb0fea54f5cf51a34b680aa68f2ba1cd&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://b122d8c8491ba58720f9253ad094f351efda947c&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://01cde5abcb18bf0e112e3b154c5f51700ba8b60f&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}},&quot;guid://608b377706392e6ade2e8ac19cede52c5f1f1e9b&quot;:{&quot;surface_0&quot;:{&quot;use_custom_settings&quot;:0,&quot;uv_ch&quot;:1,&quot;unwrap_uv_ch_0&quot;:0,&quot;unwrap_uv_ch_1&quot;:0,&quot;resolution&quot;:3}}}</parameter>
+		<parameter type="int" name="smooth_animation_size">0</parameter>
+		<parameter type="string" name="material_guids">material.001,a33cf17262dca22900408574fd35f2433f3df2c6,material,c3773aac65a9761b73bbb4be8d88d505bebec2a0</parameter>
+	</parameters>
+</asset>

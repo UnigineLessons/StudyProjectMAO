@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.15.1.0">
+	<guid>251e8206f95ff1adba7e2728cb58e067e36a629a</guid>
+	<type>texture</type>
+	<hash>aa826986</hash>
+	<runtimes>
+		<runtime id="251e8206f95ff1adba7e2728cb58e067e36a629a" name="Couch_Cloth_Normal.png" link="0" type="6"/>
+		<runtime id="2367ac02236d7b79b7016e84e46e2813a3d98e56" name="Couch_Cloth_Normal.dds" link="1" type="6"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">0</parameter>
+		<parameter type="bool" name="unchanged">0</parameter>
+		<parameter type="string" name="preset_name">normal map (rg)</parameter>
+	</parameters>
+</asset>
